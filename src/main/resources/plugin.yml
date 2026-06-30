@@ -1,0 +1,12 @@
+name: SuperFly
+version: 1.0.0
+main: com.pluginjapan.superfly.SuperFlyPlugin
+api-version: '1.21'
+author: Steve
+description: AI-generated fly toggle commands with beautiful gradient messages.
+folia-supported: true
+commands:
+  fly:
+    description: Toggle flight mode.
+    usage: /fly
+    permission: superfly.use
